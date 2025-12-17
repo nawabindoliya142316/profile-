@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Mahesh Kumar Ahari</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #eef2f3; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .card { background: white; width: 100%; max-width: 400px; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); overflow: hidden; text-align: center; }
+        .header { background: linear-gradient(to bottom, #74ebd5, #acb6e5); height: 150px; position: relative; }
+        .profile-img { width: 120px; height: 120px; border-radius: 50%; border: 5px solid white; position: absolute; bottom: -60px; left: 50%; transform: translateX(-50%); object-fit: cover; background: #fff; }
+        .content { padding: 70px 20px 30px; }
+        h2 { margin: 0; color: #333; font-size: 24px; }
+        .job-title { color: #666; font-size: 16px; margin: 5px 0 20px; font-weight: 600; }
+        .details { text-align: left; background: #f9f9f9; padding: 15px; border-radius: 15px; margin-bottom: 20px; font-size: 14px; color: #555; line-height: 1.6; }
+        .contact-item { display: flex; align-items: center; padding: 12px; border-bottom: 1px solid #eee; text-decoration: none; color: #333; }
+        .contact-item:last-child { border-bottom: none; }
+        .icon { font-size: 20px; margin-right: 15px; width: 25px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="mahesh.jpg" class="profile-img" alt="Mahesh Kumar Ahari">
+        </div>
+        <div class="content">
+            <h2>Mahesh Kumar Ahari</h2>
+            <p class="job-title">Senior Reader</p>
+            
+            <div class="details">
+                <div><strong>Father:</strong> Sh. Sohan Lal Ahari</div>
+                <div><strong>Employee ID:</strong> RJUD199237000551</div>
+                <div><strong>DOB:</strong> 08-10-1966</div>
+            </div>
+
+            <a href="tel:9799958545" class="contact-item">
+                <span class="icon">📞</span> <span>9799958545</span>
+            </a>
+            <div class="contact-item">
+                <span class="icon">📍</span> <span>57, Sarvoday Nagar, Udaipur, 313001</span>
+            </div>
+            <a href="https://salumbar.dcourts.gov.in" class="contact-item">
+                <span class="icon">🌐</span> <span>salumbar.dcourts.gov.in</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
