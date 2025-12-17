@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Mahesh Kumar Ahari</title>
+    <style>
+        /* General Body Setup */
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f0f4f8; display: flex; justify-content: center; margin: 0; min-height: 100vh; }
+        
+        /* Main Card Container */
+        .card { background: white; width: 100%; max-width: 400px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow-y: auto; position: relative; }
+
+        /* Blue Top Section */
+        .top-section { background: linear-gradient(180deg, #7499c4 0%, #a7c1e5 100%); height: 320px; display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 40px; }
+        
+        /* Circular Profile Image */
+        .profile-img { width: 140px; height: 140px; border-radius: 50%; border: 5px solid rgba(255,255,255,0.4); object-fit: cover; background: white; margin-bottom: 25px; }
+
+        .name { font-size: 26px; font-weight: 700; color: #000; margin: 5px 0; letter-spacing: 0.5px; text-transform: uppercase; }
+        .designation { font-size: 16px; color: #333; font-weight: 500; margin-bottom: 20px; }
+
+        /* Floating Contact Buttons */
+        .button-group { display: flex; gap: 20px; margin-bottom: -30px; z-index: 10; position: relative; }
+        .btn-circle { width: 55px; height: 55px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1); font-size: 22px; text-decoration: none; color: #444; }
+
+        /* Information Content Area */
+        .content { background: white; padding: 60px 25px 30px; }
+
+        /* Personal Data Section (Centered) */
+        .personal-data { text-align: center; color: #777; font-size: 14px; line-height: 1.8; margin-bottom: 30px; border-bottom: 1px solid #f0f0f0; padding-bottom: 20px; }
+        .personal-data strong { color: #555; }
+
+        /* Contact Rows (Icon on left) */
+        .info-row { display: flex; align-items: center; padding: 15px 0; border-bottom: 1px solid #f8f8f8; text-decoration: none; color: #333; }
+        .info-icon { width: 42px; height: 42px; background: #f4f7f9; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 18px; font-size: 18px; color: #888; }
+        .info-text { display: flex; flex-direction: column; }
+        .label { font-size: 11px; color: #bbb; text-transform: uppercase; font-weight: 600; margin-bottom: 2px; }
+        .value { font-size: 14.5px; font-weight: 500; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="top-section">
+            <img src="vishnu.jpg" class="profile-img" alt="Mahesh Kumar Ahari">
+            <div class="name">VISHNU SAIN</div>
+            <div class="designation">Senior Reader</div>
+            
+            <div class="button-group">
+                <a href="tel:9799958545" class="btn-circle">📞</a>
+                <div class="btn-circle">📍</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="personal-data">
+                Father's Name : Sh. Sohan Lal Ahari<br>
+                Employee ID : RJUD199237000551<br>
+                Date of Birth : 08 Oct 1966<br>
+                Date of Posting : 31 Oct 1992
+            </div>
+
+            <a href="tel:9799958545" class="info-row">
+                <div class="info-icon">📞</div>
+                <div class="info-text">
+                    <span class="label">Phone</span>
+                    <span class="value">9799958545</span>
+                </div>
+            </a>
+
+            <div class="info-row">
+                <div class="info-icon">🌐</div>
+                <div class="info-text">
+                    <span class="label">Website</span>
+                    <span class="value">salumbar.dcourts.gov.in</span>
+                </div>
+            </div>
+
+            <div class="info-row">
+                <div class="info-icon">📍</div>
+                <div class="info-text">
+                    <span class="label">Location</span>
+                    <span class="value">57,Sarvoday Nagar Titard Dist. Udaipur Rajasthan 313001</span>
+                </div>
+            </div>
+
+            <div class="info-row" style="border:none;">
+                <div class="info-icon">💼</div>
+                <div class="info-text">
+                    <span class="label">Department</span>
+                    <span class="value">District & Session Court, Salumber</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
